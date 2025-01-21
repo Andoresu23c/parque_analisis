@@ -1,5 +1,4 @@
 # Análisis de Movimiento en Parque de Diversiones
-![Static Badge](https://img.shields.io/badge/python-analysis-ffe869)
 
 Este proyecto analiza el movimiento y flujo de visitantes en un parque de diversiones mediante herramientas de Python y genera datos procesados para visualización en Power BI.
 
@@ -24,7 +23,7 @@ AnálisisParque/
 ### **Requisitos Previos**
 - **Python**: Se recomienda instalar Python 3.9 o superior.
 - **Bibliotecas necesarias**: Listadas en `requirements.txt`.
-- **Entorno de desarrollo**: Recomendado PyCharm, pero también compatible con otros IDEs (como Anaconda, VSCode).
+- **Entorno de desarrollo**: Recomendado PyCharm, pero también compatible con otros IDEs (como Anaconda, VSCode, Visual Studio).
 
 ### **Instalación de Dependencias**
 Ejecuta el siguiente comando para instalar las dependencias:
@@ -109,6 +108,27 @@ git push -f origin main
    ```bash
    python main.py
    ```
+
+### **En macOS con Anaconda y Visual Studio**
+1. **Instalar Anaconda:** Descarga e instala Anaconda desde [https://www.anaconda.com](https://www.anaconda.com).
+2. **Crear un entorno en Anaconda:**
+   ```bash
+   conda create --name parque_env python=3.9
+   conda activate parque_env
+   ```
+3. **Abrir Visual Studio:**
+   - Abre Visual Studio y selecciona "Abrir un proyecto o solución".
+   - Navega hasta el directorio del proyecto y ábrelo.
+4. **Configurar el intérprete de Python en Visual Studio:**
+   - Ve a las configuraciones del proyecto.
+   - Selecciona el entorno de Python correspondiente (`parque_env`).
+5. **Instalar dependencias:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. **Ejecutar el proyecto:**
+   - En Visual Studio, selecciona `main.py` como archivo principal.
+   - Ejecuta el proyecto desde la interfaz de Visual Studio.
 
 ### **Consideraciones para Anaconda**
 Si utilizas Anaconda:
